@@ -32,7 +32,7 @@ body {
     width: 100%;
     font-size: 2rem;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     color: yellow;
 }
 
@@ -68,6 +68,11 @@ body {
     font-size: 25px;
 }
 
+.email {
+    color: #3564a6;
+    font-size: 14px;
+}
+
 p {
     margin-top: 30px;
     font-size: 18px;
@@ -76,4 +81,29 @@ p {
 
 .yellow-text {
     color: yellow;
+}
+
+.button {
+    background-color: #3564a6;
+    border-radius: 8px;
+    margin: 30px 0px;
+    padding: 10px 15px;
+}
+
+.porto {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.link {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    margin: 0px 10px 50px;
 }
